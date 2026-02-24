@@ -54,4 +54,5 @@ To help us narrow this down, please answer the following:
 3.  **Source Material:** Which of the exercises we discussed interested you most:
     *   The "Occam's Razor" / Polynomial Interpolation problem?
     *   The Image Processing (matrices) problem?
+
     *   The Secret Codes (Diffie-Hellman) problem?
