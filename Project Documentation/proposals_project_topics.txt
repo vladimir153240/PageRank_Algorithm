@@ -1,0 +1,16 @@
+1. The Random Surfer Model - Markov Chain Definition
+
+Why we can avoid full measure theory here:
+
+* Our state space is finite (discrete set of web pages)
+* This means we work with discrete probability (simple sum probabilities, not integrals)
+* No need for σ-algebras, Lebesgue measure, or conditional expectations as random variables
+* The probability space (Ω, ℱ, P) is just the power set of finite outcomes
+
+
+2. Linear Transformation - Spectral Decomposition
+Jordan form decision:
+
+Only needed for defective matrices (geometric multiplicity < algebraic multiplicity)
+Irreducible stochastic matrices are diagonalizable (Perron-Frobenius guarantees this)
+Adding Jordan form would distract from the main point
