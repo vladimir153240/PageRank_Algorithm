@@ -1,0 +1,47 @@
+Based on the **Final Exam Project Guidelines** and the material we have reviewed, here is a structured approach to brainstorming your project, followed by the methodology to ensure you meet all requirements.
+
+### **1. Brainstorming: How to Find a Suitable Project**
+According to the guidelines, your project does not need to be original or fill a research gap; it can recreate an existing problem. The goal is to "show off" your math and Python skills with a topic you are proud of.
+
+Here are the four primary categories recommended in the guidelines, along with specific topic ideas drawn from your source materials:
+
+*   **Algorithm Implementation & Analysis:**
+    *   *Concept:* Implement a math-heavy algorithm and analyze its complexity or trade-offs.
+    *   *Idea from Sources:* **Polynomial Interpolation & Occam’s Razor.** You could investigate *Runge’s phenomenon* (where higher-degree polynomials oscillate wildly) and implement Lagrange or Newton interpolation. You could analyze error bounds and demonstrate why "simpler is preferred" (Occam's razor).
+    *   *Idea from Sources:* **Principal Component Analysis (PCA).** Implement PCA from scratch to reduce dimensions in a dataset (e.g., 3D to 2D) and explain the math of eigenvalues and eigenvectors.
+
+*   **Math Explainer / Tutorial:**
+    *   *Concept:* A deep dive into a concept to teach it to a beginner, including proofs and code.
+    *   *Idea from Sources:* **Cryptography & Number Theory.** create a tutorial on the Diffie-Hellman key exchange. You can explain the "trap door" functions, modular arithmetic, and simulate the exchange between two participants and an eavesdropper.
+    *   *Idea from Sources:* **The Geometry of Linear Transformations.** Use the visualization code provided in your exercises to create a tutorial on how matrices stretch, rotate, and shear space, explaining the determinant as a measure of area change.
+
+*   **Math Applications:**
+    *   *Concept:* Review how math is applied in a specific field (e.g., biology, music, image processing).
+    *   *Idea from Sources:* **Image Processing.** Explore how images are matrices. You could implement filters, grayscale conversion (luminance correction), or edge detection using linear algebra concepts.
+    *   *Idea from Sources:* **Math in Nature.** Investigate fractals (Romanesco broccoli) or the geometry of honeycomb cells.
+
+*   **Games, Puzzles, & Simulations:**
+    *   *Concept:* Simulations of paradoxes, logic puzzles, or game theory.
+    *   *Idea:* If you enjoy probability, you could simulate a famous paradox (like the Monty Hall problem) or a board game strategy, though your current sources focus more on algebra and calculus.
+
+---
+
+### **2. Methodology: Steps to Comply with Requirements**
+To ensure a passing grade, we must adhere to the "scientific method" and the specific logistics defined in the guidelines.
+
+**Phase 1: Setup & Logistics (Crucial)**
+*   **Repository Creation:** Create a GitHub repository immediately.
+*   **The "10 Commits" Rule:** You **must** make at least 10 meaningful commits on 10 different days.
+    *   *Plan:* Do not wait until the end. Commit your initial outline today, your research notes tomorrow, your first function next week, etc.
+
+**Phase 2: Execution & Coding**
+*   **Select Format:** Choose between a Technical Report, Tutorial, or Article. A Jupyter Notebook (`.ipynb`) is mandatory.
+*   **Math Implementation:** Ensure you define the mathematical basis clearly (formulas, LaTeX) before implementing the Python code.
+*   **Code Quality:** Use functions, clear variable names, and comments. Avoid "spaghetti code" inside the notebook cells.
+
+**Phase 3: Documentation & Analysis**
+*   **Problem Formulation:** Clearly state *what* you are solving and *why* it matters.
+*   **Validation:** Don't just run the code; verify it. For example, if you implement interpolation, plot the error against the real function to prove it works.
+*   **Citations:** Cite your sources (including the course materials) to avoid plagiarism.
+
+---
