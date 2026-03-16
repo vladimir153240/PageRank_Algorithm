@@ -1,20 +1,8 @@
-# Problem Formulation
+This folder contains the opening section of the technical report where we introduce and formulate our problem and approach.
 
-This folder contains the opening section of the technical report.
+## Contents in the notebook:
 
----
-
-## File
-
-| File | Description |
-|------|-------------|
-| `Problem_Formulation_f.ipynb` | Explanatory notebook covering introduction, motivation, research gap definition, and mathematical setup |
-
----
-
-## Contents
-
-- Introduction & Motivation
+- Introduction & Motivation.
 - The Web as a Graph — Formalizing web pages as nodes and hyperlinks as directed edges.
 - The Recursive Importance Problem — Why importance is circular and how PageRank resolves it.
 - The Random Surfer Model — Probabilistic interpretation of web navigation.
@@ -22,4 +10,4 @@ This folder contains the opening section of the technical report.
 
 ---
 
-**Next:** `Python_Implementation/`
+Next Folder: `Python_Implementation/`
