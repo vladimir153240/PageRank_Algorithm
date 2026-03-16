@@ -1,1 +1,40 @@
-This is the directory where the web will be modelled
+# Python Implementation
+
+This folder contains the full technical implementation of the PageRank algorithm, with mathematical derivations and code.
+
+---
+
+## File
+
+| File | Description |
+|------|-------------|
+| `Web_Modelling_and_Python_Implementation.ipynb` | Step-by-step implementation with documentation, code, tests and inline explanations |
+
+---
+
+## Contents
+
+**1. Mathematical Derivation**
+- Adjacency matrix definition
+- Transition matrix construction (column-stochastic)
+- Eigenvector equation: $v = M \cdot v$
+- Power Iteration convergence
+
+**2. Mini-Web Graph**
+- 7-node directed graph with a dangling node (spider trap scenario)
+- Represented as a NumPy adjacency matrix
+
+
+**3. Validation**
+- Cross-checks Power Iteration output against eigenvalues.
+- Confirms convergence to the eigenvector with eigenvalue $\lambda = 1$.
+
+---
+
+## How to Run
+
+Run cells top to bottom — each section builds on the previous one.
+
+---
+
+**Next:** `Analysis_and_Experiments/`
