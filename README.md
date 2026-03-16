@@ -39,22 +39,3 @@ PageRank_Algorithm/
     ├── pagerank_implementation.py          # Clean implementation — no documentation
     └── pagerank_experiments.py            # Clean experiments — no documentation
 ```
- 
----
- 
-## What This Project Covers
- 
-| Step | Topic |
-|------|-------|
-| Problem Formulation | Web graph model, Random Surfer, Adjacency matrix, Transition matrix, Eigenvector equation|
-| Implementation | Power Iteration, damping factor, dangling node handling |
-| Validation | Eigenvalue verification |
-| Experiments | Damping factor sensitivity, convergence analysis, graph structure effects |
- 
----
- 
-## Core Dependencies
- 
-```
-numpy | matplotlib | jupyter
-```
