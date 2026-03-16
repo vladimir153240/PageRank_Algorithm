@@ -1,0 +1,15 @@
+# Analysis and Experiments
+
+This folder contains the experimental analysis of the PageRank algorithm — testing how it behaves under different conditions.
+
+Both notebooks here import functions directly from `pagerank_implementation.py` in this folder. Do not move or rename that file.
+
+## Covered Experiments: 
+- Initial Vector Independence
+- Personalized PageRank 
+- Network Connectivity
+- Link Manipulation
+
+---
+
+**Next:** `src/` — for the clean, documentation-free versions of all code.
