@@ -1,1 +1,15 @@
-In this folder I will save the ready to run code blocks without documentation before or after the code blocks.   
+# src
+
+This folder contains only the runnable python scripts for the project. These are the final versions of the code, structured for direct execution.
+
+Run in the below order
+
+Step 1 — Run the pagerank_implementation.py: 
+- Builds the transition matrix, applies damping, runs Power Iteration, and validates against `numpy.linalg.eig`.
+
+**Step 2 — Run the pagerank_experiments.py 
+- `pagerank_experiments.py` imports from `pagerank_implementation.py`. Both files must be in the **same directory** when running.
+
+Note:
+
+For full context, derivations, and explanations behind this code, refer to the documented notebooks in `Python_Implementation/` and `Analysis_and_Experiments/`.
