@@ -1,0 +1,20 @@
+# Python Implementation
+
+This folder contains the full technical implementation of the PageRank algorithm, with mathematical derivations and code.
+
+1. Notebook Structure
+- Transition matrix construction (column-stochastic) 
+- Adjacency matrix definition
+- Power Iteration convergence
+- Eigenvector Validation
+- Edge Cases and Damping Factor
+
+2. Mini-Web Graph
+- 8-node directed graph with a dangling node and spider trap
+
+
+3. Validation
+- Cross-checks: Power Iteration output against eigenvalues.
+- Confirms convergence to the eigenvector.
+
+Next Step: `Analysis_and_Experiments/`
